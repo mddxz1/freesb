@@ -1,17 +1,17 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-	Name = "Yero Script v1.2",
-	LoadingTitle = "Yero Script",
-	LoadingSubtitle = "by hellmid",
+	Name = "jynxz",
+	LoadingTitle = "Jynxz script",
+	LoadingSubtitle = "by jynxz",
 	ConfigurationSaving = {
 		Enabled = true,
 		FolderName = nil, -- Create a custom folder for your hub/game
-		FileName = "Yero Hub"
+		FileName = "joker hub"
 	},
 	Discord = {
 		Enabled = true,
-		Invite = "d62f7FrKbd", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+		Invite = "JGGKquAgqV", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
 		RememberJoins = true -- Set this to false to make them join the discord every time they load it up
 	},
 	KeySystem = false, -- Set this to true to use our key system
