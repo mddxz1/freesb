@@ -1,17 +1,17 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-	Name = "jynxz",
-	LoadingTitle = "Jynxz script",
+	Name = "Jynxz script",
+	LoadingTitle = "Big jynxz",
 	LoadingSubtitle = "by jynxz",
 	ConfigurationSaving = {
 		Enabled = true,
 		FolderName = nil, -- Create a custom folder for your hub/game
-		FileName = "joker hub"
+		FileName = "spaz hub"
 	},
 	Discord = {
-		Enabled = true,
-		Invite = "JGGKquAgqV", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+		Enabled = false,
+		Invite = "d62f7FrKbd", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
 		RememberJoins = true -- Set this to false to make them join the discord every time they load it up
 	},
 	KeySystem = false, -- Set this to true to use our key system
@@ -31,7 +31,7 @@ local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
    Title = "Enjoy!",
-   Content = "Thanks To Mr.Hellmid",
+   Content = "Thanks to Jynxz.fr",
    Duration = 6.5,
    Image = nil,
    Actions = { -- Notification Buttons
